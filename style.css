@@ -1,0 +1,79 @@
+body {
+    font-family: 'Eb Garamound', serif;
+    background: url('https://images5.alphacoders.com/380/380354.jpg') no-repeat center fixed;
+    background-size: cover;
+    background-color: #9ec660; /* light green background */
+    color: hsl(0, 20%, 98%);
+    margin: 0; /* Reset margins */
+    padding: 10px; /* Reset padding */
+    padding-bottom: 40px; /* Space for the fixed footer */  
+}
+
+header {
+    background-color: #0f3e3a75; /* Dark green */
+    padding: 10px;
+    color: rgb(84, 253, 160);
+    text-align: center;
+}
+
+nav {
+    background-color: #0f3e3a75; /* Olive green */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: text-decoration 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+
+}
+
+.panda-image {
+    width: 50%;
+    max-width: 200px;
+    height: fixed; /* Preserve aspect ratio */
+    margin: 10px auto;
+    display: block;
+    border-radius: 100px;
+    background: url('https://images5.alphacoders.com/380/380354.jpg') no-repeat center fixed
+}
+
+footer {
+    
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2 {
+    color: hsl(210, 25%, 97%);
+    border-radius: 100%;
+}
+
+.facts ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.fact {
+    font-size: 16px;
+    margin: 5px 0;
+}
